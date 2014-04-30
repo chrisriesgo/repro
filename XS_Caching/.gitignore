@@ -1,0 +1,7 @@
+*.userprefs
+*.user
+*.suo
+bin/
+obj/
+*.suo
+.DS_Store
