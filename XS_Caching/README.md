@@ -4,5 +4,7 @@ Hello World - XS_Caching
 This is a super simple hello world application. It uses a TextView to
 display a plain old hello world message via a string resource.
 
-In order to test that the Resources/values/strings.xml is being cached, 
-I'm copying a new one over it via a Copy command from another project.
+In order to test that `Resources/values/strings.xml` is being cached, 
+I'm copying a new one over it via a BeforeBuild Target Copy command from the `_Build` project. 
+
+The behavior you should notice is the app will read _Hello World, HelloAndroid!_ instead of _Hello World, HelloXS_Caching!_. My expectation is that the file should overwrite the Android resource, and be pulled into the app during the build process. It, however, isn't.
