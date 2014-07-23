@@ -53,6 +53,6 @@ Global
 		{DAC2B9AB-C370-4EE5-91A5-23FBD1B21E03}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Android\XF_PopToRootAsync.Android.csproj
+		StartupItem = iOS\XF_PopToRootAsync.iOS.csproj
 	EndGlobalSection
 EndGlobal
