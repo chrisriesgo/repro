@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="Theme.Forms" parent="@android:style/Theme.DeviceDefault">
+    <item name="android:editTextStyle">@style/FormsEditText</item>
+  </style>
+   
+
+  <style name="FormsEditText" parent="@android:style/Widget.EditText">
+  	<item name="android:textCursorDrawable">@null</item>
+  </style>
+
+
+</resources>
