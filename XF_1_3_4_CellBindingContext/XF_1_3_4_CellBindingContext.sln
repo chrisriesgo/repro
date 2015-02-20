@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XF_1_3_4_CellBindingContext", "XF_1_3_4_CellBindingContext\XF_1_3_4_CellBindingContext.shproj", "{B61B1833-FCB6-45DB-A5E4-5EC5F9286C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XF_1_3_4_CellBindingContext.iOS", "iOS\XF_1_3_4_CellBindingContext.iOS.csproj", "{D14FD8EA-52AC-4602-86FA-929AE84C1F71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Release|iPhone.Build.0 = Release|iPhone
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D14FD8EA-52AC-4602-86FA-929AE84C1F71}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
